@@ -1,18 +1,83 @@
 <style>
     main {
         text-align: center;
+        font-family: serif;
+        filter: brightness(75%);
+    }
+    
+    html {
+        background-color: teal;
     }
     
     @media(max-width: 800px) {
         p {
-            font-size: 1.5em;
+            font-size: 3.4vw;
+        }
+        main {
+            height: 100vh;
+            width: 90vw;
+            margin: auto;
+        }
+        details {
+            font-size: 3vw;
+            line-height: 1.75em;
         }
     }
     
     @media(min-width: 801px) {
         p {
-            font-size: 2.2em;
+            font-size: 2.6vw;
         }
+        main {
+            height: 100vh;
+            width: 75vw;
+            margin: auto;
+        }
+        details {
+            font-size: 2.1vw;
+            line-height: 1.75em;
+        }
+    }
+    
+    h1 {
+        font-size: 6.0vw;
+        padding-top: 10px;
+    }
+    
+    h2 {
+        font-size: 4.0vw;
+        padding-top: 6px;
+    }
+    
+    main {
+        background-color: teal;
+    }
+    
+    header {
+        background-color: #00f0ff;
+        color: black;
+    }
+    
+    .about {
+        background-color: #00ff91;
+        color: black;
+    }
+    
+    .artifact {
+        background-color: #006fff;
+        color: black
+    }
+    
+    a {
+        filter: contrast(.5);
+    }
+    
+    nav {
+        font-size: 2.8vw;
+    }
+    
+    .artifact-a {
+        filter: saturate(10);
     }
 </style>
 <html>
@@ -57,7 +122,7 @@
 
     <body>
         <section>
-            <article>
+            <article class="about">
                 <h2>
                     About Andrew Moody
                 </h2>
@@ -76,24 +141,31 @@
                 </p>
             </article>
         </section>
-        <section>
-            <h2>
-                Web Design
-            </h2>
+        <div class="artifact">
+            <section>
+                <h2>
+                    Web Design
+                </h2>
+                <p>
+                    Andrew has designed websites for a variety of organizations<br> His work can be found at <a class="artifact-a" href="https://www.uwpcnc.org">United Way of Pitt County</a> and at <a class="artifact-a" href="http://comgiving.com/">UNCW's COM Giving</a>
+                </p>
 
-        </section>
-        <section>
-            <h2>
-                Blog Posts
-            </h2>
+            </section>
+            <section>
+                <h2>
+                    Blog Posts
+                </h2>
+                <p>Andrew Moody's Blog posting efforts can be found at <a class="artifact-a" href="https://andrewmoodyonline.weebly.com/blog">The Andrew Moody Blog</a>.</p>
 
-        </section>
-        <section>
-            <h2>
-                Press Releases
-            </h2>
+            </section>
+            <section>
+                <h2>
+                    Press Releases
+                </h2>
+                <p>Andrew Moody's Press Release efforts can be found at <a class="artifact-a" href="https://andrewmoodyonline.weebly.com/artifact-1.html">Andrew Moody's Press Releases</a>.</p>
 
-        </section>
+            </section>
+        </div>
     </body>
 </main>
 
