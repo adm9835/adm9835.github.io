@@ -3,6 +3,7 @@
         text-align: center;
         font-family: serif;
         filter: brightness(75%);
+        background-color: teal;
     }
     
     html {
@@ -11,73 +12,79 @@
     
     @media(max-width: 800px) {
         p {
-            font-size: 3.4vw;
+            font-size: 3.0vw;
         }
         main {
-            height: 100vh;
-            width: 90vw;
+            height: 100%;
+            width: 85vw;
             margin: auto;
+            border-bottom-left-radius: 5%;
+            border-bottom-right-radius: 5%;
         }
         details {
-            font-size: 3vw;
+            font-size: 2.5vw;
             line-height: 1.75em;
         }
     }
     
     @media(min-width: 801px) {
         p {
-            font-size: 2.6vw;
+            font-size: 2vw;
         }
         main {
-            height: 100vh;
+            height: 100%;
             width: 75vw;
             margin: auto;
         }
         details {
-            font-size: 2.1vw;
+            font-size: 1.8vw;
             line-height: 1.75em;
         }
     }
     
     h1 {
-        font-size: 6.0vw;
+        font-size: 4.0vw;
         padding-top: 10px;
     }
     
     h2 {
-        font-size: 4.0vw;
+        font-size: 2.8vw;
         padding-top: 6px;
-    }
-    
-    main {
-        background-color: teal;
     }
     
     header {
         background-color: #00f0ff;
         color: black;
+        border-bottom-left-radius: 15%;
+        border-bottom-right-radius: 15%;
     }
     
     .about {
         background-color: #00ff91;
         color: black;
+        border-radius: 15%;
     }
     
     .artifact {
         background-color: #006fff;
-        color: black
+        color: black;
+        border-radius: 15%;
     }
     
     a {
-        filter: contrast(.5);
+        filter: contrast(75%);
     }
     
     nav {
-        font-size: 2.8vw;
+        font-size: 2.2vw;
     }
     
     .artifact-a {
         filter: saturate(10);
+    }
+    
+    #contact {
+        color: black;
     }
 </style>
 <html>
@@ -99,7 +106,7 @@
             Andrew Moody Online Digital Marketing Portfolio
         </title>
         <meta name="description" content="Andrew Moody's portfolio can be found on this page. It includes details about his digital marketing skillset.">
-        <meta name="keywords" content="Andrew Moody, Andrew Moody Portfolio, Andrew Moody's Online Portfolio, Digital Marketing, Digital Marketing Portfolio">
+        <meta name="keywords" content="Andrew Moody, Portfolio, Online, Digital Marketing">
         <meta name="author" content="Andrew Moody">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -166,6 +173,15 @@
 
             </section>
         </div>
+        <section id="contact">
+            <h2>
+                Contact Andrew Moody
+            </h2>
+            <p>
+                Andrew Moody can be contacted at andrewmoodyonline@gmail.com, or at LinkedIn at <a href="https://www.linkedin.com/in/andrewmoodyonline/">Andrew Moody LinkedIn</a>
+            </p>
+            <br>
+        </section>
     </body>
 </main>
 
